@@ -1,4 +1,4 @@
-# 🔐 HILL CIPHER PLATINUM - PRO
+# HILL CIPHER PLATINUM - PRO
 
 <p align="center">
   <img src="https://img.shields.io/badge/Hill%20Cipher-Platinum%20PRO-00f2ff?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000" alt="Hill Cipher Platinum PRO">
@@ -25,7 +25,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - Project Overview
 - File Structure
@@ -43,7 +43,7 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 **Hill Cipher Platinum PRO** is a **state-of-the-art cryptographic laboratory** that implements the classical Hill cipher algorithm with enterprise-grade enhancements. Built for cryptographers, educators, and security researchers, this platform transforms the 1929 Lester S. Hill cipher into an interactive, real-time visualization engine.
 
@@ -58,7 +58,7 @@ P = (K⁻¹ × C) mod 26 # Decryption: Plaintext = (Key⁻¹ × Ciphertext) mod 
 **Development Status:** Production-ready (v4.0.0-final)  
 **Lines of Code:** 2,100+ (core engine + UI + visualization)
 
-### 🎓 Academic Context
+### Academic Context
 
 The Hill cipher, invented by Lester S. Hill in 1929, was the first polygraphic cipher capable of operating on more than three symbols simultaneously. This implementation honors that legacy while adding:
 
@@ -69,18 +69,18 @@ The Hill cipher, invented by Lester S. Hill in 1929, was the first polygraphic c
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
-📦 HILL-CIPHER-PLATINUM-PRO/
+HILL-CIPHER-PLATINUM-PRO/
 ├── streamlit_app.py      (The main code file)
 ├── requirements.txt      (Library list)
 
 ```
 ---
-## ⚡ Key Features
+## Key Features
 
-### 🔐 **Core Cryptographic Engine**
+### **Core Cryptographic Engine**
 
 | Feature | Description | Technical Implementation | Performance Impact |
 |---------|-------------|------------------------|-------------------|
@@ -91,7 +91,7 @@ The Hill cipher, invented by Lester S. Hill in 1929, was the first polygraphic c
 | **J→I Substitution** | Historical cipher compatibility | Unicode-safe text transformation | O(n) preprocessing |
 | **Batch Processing** | Multi-block simultaneous encryption | Vectorized NumPy operations | 40% faster than loops |
 
-### 🎨 **Advanced Visualization Suite**
+### **Advanced Visualization Suite**
 
 - **Mathematical Trace Engine**: Live LaTeX-rendered matrix multiplication steps
   ```latex
@@ -104,7 +104,7 @@ The Hill cipher, invented by Lester S. Hill in 1929, was the first polygraphic c
 - **Matrix Editor**: Interactive Pandas DataFrame with instant validation
 - **History Viewer**: Chronological operation log with timestamps
 
-### 💼 **Enterprise Features**
+### **Enterprise Features**
 
 | Feature | Implementation | User Benefit |
 |---------|---------------|--------------|
@@ -115,7 +115,7 @@ The Hill cipher, invented by Lester S. Hill in 1929, was the first polygraphic c
 | **Random Generator** | Auto-retry until invertible | One-click valid matrices |
 | **Copy to Clipboard** | Toast confirmation feedback | Immediate result capture |
 
-### 🖥️ **UI/UX Excellence**
+### **UI/UX Excellence**
 
 ```css
 /* Premium Cyberpunk Aesthetic */
@@ -153,7 +153,7 @@ The Hill cipher, invented by Lester S. Hill in 1929, was the first polygraphic c
 
 ---
 
-## 🛠 Technical Stack
+## Technical Stack
 
 ### **Core Dependencies**
 
@@ -197,7 +197,7 @@ The Hill cipher, invented by Lester S. Hill in 1929, was the first polygraphic c
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -211,7 +211,7 @@ pip --version
 pip 23.0.0+
 ```
 
-### ⚡ Installation Methods
+### Installation Methods
 
 #### **Method 1: One-Line Install (Recommended)**
 
@@ -259,7 +259,7 @@ docker build -t hill-cipher-pro .
 docker run -p 8501:8501 hill-cipher-pro
 ```
 
-### 📦 **requirements.txt**
+### **requirements.txt**
 
 ```txt
 # Core dependencies
@@ -277,23 +277,23 @@ black==23.0.0
 
 ---
 
-## 📖 Usage Guide
+## Usage Guide
 
-### **1. 🔐 Workspace Configuration**
+### **1. Workspace Configuration**
 
 ```python
 # Step-by-step production workflow
-1. 📏 Select matrix dimension (2, 3, or 4) from sidebar
-2. ✏️ Input key matrix values (integers 0-25)
-3. ✅ Verify "MATRIX OPERATIONAL" status indicator (cyan)
-4. 📝 Enter plaintext/ciphertext in input stream
-5. 🚀 Click ENCRYPT or DECRYPT
-6. 📋 Copy or export results
+1. Select matrix dimension (2, 3, or 4) from sidebar
+2. Input key matrix values (integers 0-25)
+3. Verify "MATRIX OPERATIONAL" status indicator (cyan)
+4. Enter plaintext/ciphertext in input stream
+5. Click ENCRYPT or DECRYPT
+6. Copy or export results
 ```
 
-### **2. 🔑 Key Matrix Examples**
+### **2. Key Matrix Examples**
 
-#### **✅ Valid 2×2 Matrix (Invertible mod 26)**
+#### **Valid 2×2 Matrix (Invertible mod 26)**
 ```
 ┌─     ─┐
 │ 3  3 │
@@ -303,7 +303,7 @@ det = (3×5 - 3×2) = 15 - 6 = 9 mod 26
 gcd(9, 26) = 1 ✓ INVERTIBLE
 ```
 
-#### **✅ Valid 3×3 Matrix**
+#### **Valid 3×3 Matrix**
 ```
 ┌─         ─┐
 │ 6  24  1 │
@@ -314,7 +314,7 @@ det = 25 mod 26
 gcd(25, 26) = 1 ✓ INVERTIBLE
 ```
 
-#### **✅ Valid 4×4 Matrix**
+#### **Valid 4×4 Matrix**
 ```
 ┌─           ─┐
 │ 5  8  12 7 │
@@ -326,7 +326,7 @@ det = 23 mod 26
 gcd(23, 26) = 1 ✓ INVERTIBLE
 ```
 
-#### **❌ Invalid Matrix (Non-invertible)**
+#### **Invalid Matrix (Non-invertible)**
 ```
 ┌─     ─┐
 │ 2  4 │
@@ -336,7 +336,7 @@ det = (2×6 - 4×3) = 12 - 12 = 0 mod 26
 gcd(0, 26) = 26 ≠ 1 ✗ NOT INVERTIBLE
 ```
 
-### **3. 📝 Encryption Example**
+### **3. Encryption Example**
 
 **Input:** `HELLO WORLD`  
 **Key:** 2×2 matrix `[[3, 3], [2, 5]]`  
@@ -372,7 +372,7 @@ gcd(0, 26) = 26 ≠ 1 ✗ NOT INVERTIBLE
 
 **Output:** `HIOZEIPJQLIF`
 
-### **4. 🔓 Decryption Example**
+### **4. Decryption Example**
 
 **Input:** `HIOZEIPJQLIF`  
 **Key:** 2×2 matrix `[[3, 3], [2, 5]]`  
@@ -397,9 +397,9 @@ gcd(0, 26) = 26 ≠ 1 ✗ NOT INVERTIBLE
 
 **Output:** `HELLOWORLDXX` (remove padding → `HELLOWORLD`)
 
-### **5. 📂 File Processing**
+### **5. File Processing**
 
-```bash
+```
 # Batch encryption workflow
 1. Navigate to "ARCHIVES" tab
 2. Click "UPLOAD SOURCE (.TXT)"
@@ -408,13 +408,13 @@ gcd(0, 26) = 26 ≠ 1 ✗ NOT INVERTIBLE
 5. Download "enc_secret_message.txt"
 ```
 
-### **6. 🎬 Visualization Mode**
+### **6. Visualization Mode**
 
 ```bash
 # Mathematical trace animation
 1. Perform encryption/decryption in Workspace
 2. Navigate to "VISUALIZER" tab
-3. Click "▶️ RUN ANIMATION"
+3. Click "RUN ANIMATION"
 4. Watch live LaTeX rendering:
    
    ⎡3 3⎤   ⎡7⎤   ⎡33⎤       ⎡7⎤
@@ -426,7 +426,7 @@ gcd(0, 26) = 26 ≠ 1 ✗ NOT INVERTIBLE
 
 ---
 
-## 💻 Development Setup
+## Development Setup
 
 ### **Development Environment Configuration**
 
@@ -454,7 +454,7 @@ streamlit run "linear algebra/Linear Algebra.py" --server.runOnSave=true
 
 ### **requirements-dev.txt**
 
-```txt
+```
 # Development dependencies
 -r requirements.txt
 pytest==7.4.0
@@ -469,7 +469,7 @@ mypy==1.5.0
 
 ### **VS Code Configuration (.vscode/launch.json)**
 
-```json
+```
 {
   "version": "0.2.0",
   "configurations": [
@@ -500,17 +500,17 @@ mypy==1.5.0
 
 ---
 
-## ⚡ Performance Optimization
+## Performance Optimization
 
 ### **Current Performance Metrics**
 
 | Operation | Time Complexity | Actual Performance | Optimization Status |
 |-----------|----------------|-------------------|-------------------|
-| Matrix Validation | O(n³) | < 10ms | ✅ Cached |
-| Modular Inverse | O(n³) | < 50ms | ✅ SymPy optimized |
-| Encryption (1000 chars) | O(m×n²) | ~150ms | ✅ Vectorized |
-| LaTeX Rendering | O(m) | ~30ms per block | ✅ Lazy loading |
-| File I/O | O(f) | < 5ms | ✅ Buffered |
+| Matrix Validation | O(n³) | < 10ms | Cached |
+| Modular Inverse | O(n³) | < 50ms | SymPy optimized |
+| Encryption (1000 chars) | O(m×n²) | ~150ms | Vectorized |
+| LaTeX Rendering | O(m) | ~30ms per block | Lazy loading |
+| File I/O | O(f) | < 5ms | Buffered |
 
 ### **Optimization Techniques Implemented**
 
@@ -523,7 +523,7 @@ if f'mat_{dim}' not in st.session_state:
     st.session_state[f'mat_{dim}'] = pd.DataFrame(...)
 
 # 3. Lazy LaTeX rendering
-if st.button("▶️ RUN ANIMATION"):  # Only render when requested
+if st.button("RUN ANIMATION"):  # Only render when requested
     render_steps()
 
 # 4. Efficient padding
@@ -545,7 +545,7 @@ with open('history.json', 'w') as f:
 
 ---
 
-## 📚 Academic Context
+## Academic Context
 
 ### **Mathematical Foundations**
 
@@ -567,14 +567,14 @@ The Hill cipher is based on **linear algebra** and **modular arithmetic**:
 
 | Aspect | Analysis | Status |
 |--------|----------|--------|
-| Key Space | 26^(n²) possible keys | ❌ Vulnerable to brute force (n≤4) |
-| Known-plaintext | n² characters reveal key | ⚠️ Educational use only |
-| Frequency Analysis | Blocks hide single-letter freq | ⚠️ Still vulnerable |
-| **Modern Use** | **Educational demonstrations** | ✅ **Primary purpose** |
+| Key Space | 26^(n²) possible keys | Vulnerable to brute force (n≤4) |
+| Known-plaintext | n² characters reveal key | Educational use only |
+| Frequency Analysis | Blocks hide single-letter freq | Still vulnerable |
+| **Modern Use** | **Educational demonstrations** | **Primary purpose** |
 
 ---
 
-## 🧪 Testing Suite
+## Testing Suite
 
 ### **Test Coverage**
 
@@ -629,21 +629,21 @@ def test_prepare_text_padding():
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from the community! Here's how you can help:
 
 ### **Contribution Workflow**
 
 ```bash
-1. 🍴 Fork the repository
-2. 🌿 Create feature branch: `git checkout -b feature/amazing-feature`
-3. 💻 Make changes
-4. ✅ Run tests: `pytest tests/ -v`
-5. ✨ Format code: `black "linear algebra/" tests/`
-6. 📝 Commit: `git commit -m 'Add amazing feature'`
-7. 🚀 Push: `git push origin feature/amazing-feature`
-8. 🔃 Open Pull Request
+1. Fork the repository
+2. Create feature branch: `git checkout -b feature/amazing-feature`
+3. Make changes
+4. Run tests: `pytest tests/ -v`
+5. Format code: `black "linear algebra/" tests/`
+6. Commit: `git commit -m 'Add amazing feature'`
+7. Push: `git push origin feature/amazing-feature`
+8. Open Pull Request
 ```
 
 ### **Development Guidelines**
@@ -658,16 +658,16 @@ We welcome contributions from the community! Here's how you can help:
 
 | Priority | Feature | Status | Target Version |
 |----------|---------|--------|----------------|
-| 🔴 High | 5×5 matrix support | Planned | v4.1.0 |
-| 🔴 High | Custom modulus (not just 26) | Planned | v4.1.0 |
-| 🟡 Medium | Playfair cipher integration | Research | v4.2.0 |
-| 🟡 Medium | RSA comparison module | Research | v4.2.0 |
-| 🟢 Low | Mobile-responsive layout | Backlog | v4.3.0 |
-| 🟢 Low | Dark/light theme toggle | Backlog | v4.3.0 |
+| High | 5×5 matrix support | Planned | v4.1.0 |
+| High | Custom modulus (not just 26) | Planned | v4.1.0 |
+| Medium | Playfair cipher integration | Research | v4.2.0 |
+| Medium | RSA comparison module | Research | v4.2.0 |
+| Low | Mobile-responsive layout | Backlog | v4.3.0 |
+| Low | Dark/light theme toggle | Backlog | v4.3.0 |
 
 ---
 
-## ⚖️ License
+## License
 
 **MIT License** - Open source, freely available for educational and commercial use.
 
@@ -697,7 +697,7 @@ SOFTWARE.
 
 ---
 
-## 📬 Contact
+## Contact
 
 ### **Project Maintainer**
 
